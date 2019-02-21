@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>KBFriendFinder</title>
+      
+        <!-- Latest compiled and minified CSS & JS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+      
+        <!-- Font Awesome Glyphicons -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+      
+      </head>
+      
+      <body>
+      
+        <div class="container text-center">
+            <h2>KB Survey Questions</h2>
+            <hr>
+            <h3><strong>Tell Me About You</strong></h3>
+            <h4>Name (Required)</h4>
+            <input type="text" name="" id="name" class="form-control" required>
+            <h4>A link to Photo Image (Required)</h4>
+            <input type="text" name="" id="photo" class="form-control" required>
+            <hr>
+
+            <h3><strong>Q1</strong></h3>
+            <h4>How punctual are you?</h4>
+            <select data-placeholder="" class="chosen-select" id="q1">
+                <option value=""></option>
+                <option value="1">1 (Never ever!/ I disagree!)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (YASSS!!!)</option>
+            </select>
+
+            <h3><strong>Q2</strong></h3>
+            <h4>Do you like large crowds?</h4>
+            <select data-placeholder="" class="chosen-select" id="q2">
+                <option value=""></option>
+                <option value="1">1 (Never ever!/ I disagree!)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (YASSS!!!)</option>
+            </select>
+
+            <h3><strong>Q3</strong></h3>
+            <h4>Are you into video games?</h4>
+            <select data-placeholder="" class="chosen-select" id="q3">
+                <option value=""></option>
+                <option value="1">1 (Never ever!/ I disagree!)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (YASSS!!!)</option>
+            </select>
+
+            <h3><strong>Q4</strong></h3>
+            <h4>Do you like camping?</h4>
+            <select data-placeholder="" class="chosen-select" id="q4">
+                <option value=""></option>
+                <option value="1">1 (Never ever!/ I disagree!)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (YASSS!!!)</option>
+            </select>
+
+            <h3><strong>Q5</strong></h3>
+            <h4>Would you go out clubbing everynight if you could?</h4>
+            <select data-placeholder="" class="chosen-select" id="q5">
+                <option value=""></option>
+                <option value="1">1 (Never ever!/ I disagree!)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (YASSS!!!)</option>
+            </select>
+
+            <h3><strong>Q6</strong></h3>
+            <h4>Do you like watching cartoons?</h4>
+            <select data-placeholder="" class="chosen-select" id="q6">
+                <option value=""></option>
+                <option value="1">1 (Never ever!/ I disagree!)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (YASSS!!!)</option>
+            </select>
+
+            <h3><strong>Q7</strong></h3>
+            <h4>Are you addicted to your phone?</h4>
+            <select data-placeholder="" class="chosen-select" id="q7">
+                <option value=""></option>
+                <option value="1">1 (Never ever!/ I disagree!)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (YASSS!!!)</option>
+            </select>
+
+            <h3><strong>Q8</strong></h3>
+            <h4>How important is it for your home to be clean?</h4>
+            <select data-placeholder="" class="chosen-select" id="q8">
+                <option value=""></option>
+                <option value="1">1 (Never ever!/ I disagree!)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (YASSS!!!)</option>
+            </select>
+
+            <h3><strong>Q9</strong></h3>
+            <h4>Do you workout?</h4>
+            <select data-placeholder="" class="chosen-select" id="q9">
+                <option value=""></option>
+                <option value="1">1 (Never ever!/ I disagree!)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (YASSS!!!)</option>
+            </select>
+
+            <h3><strong>Q10</strong></h3>
+            <h4>Do you like to drink wine?</h4>
+            <select data-placeholder="" class="chosen-select" id="q10">
+                <option value=""></option>
+                <option value="1">1 (Never ever!/ I disagree!)</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5 (YASSS!!!)</option>
+            </select>
+
+            <br>
+            <br>
+
+            <button type="submit" class="btn btn-success" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>Submit</button>
+          
+            <hr>
+      
+          <footer class="footer">
+            <div class="container">
+              <p><a href="/api/friends">KB API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a></p>
+            </div>
+          </footer>
+      
+        </div>
+
+        <div id="resultsModal" class="modal fade" role="dialog">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">KB Says</h5>
+                      <button type="button" class="close" data-dismiss="modal">&times;</button>
+                      <h3 class="modal-title"><strong>KB says here is your best match!</strong></h3>
+                        <!-- <span aria-hidden="true">&times;</span>
+                      </button> -->
+                    </div>
+                    <div class="modal-body">
+                      <p id="matchName"></p>
+                      <img id="matchImg" src="https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiqr-ODrcvgAhVyhOAKHQbdCtAQjRx6BAgBEAU&url=https%3A%2F%2Fpixabay.com%2Fen%2Fsmiley-face-happy-icon-symbol-892288%2F&psig=AOvVaw1-tsnYnIAYO0X1lmW1pk6Q&ust=1550787832844690" alt="no image" height="200px" width="200px">
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+      
+      
+      
+      
+     
+
+<script type="text/javascript">
+
+$("#submit").on("click", function() {
+		// event.preventDefault();
+        // Form validation
+        function validateForm() {
+            var isValid = true;
+            $(".form-control").each(function() {
+                if ($(this).val() === "") {
+                    isValid = false;
+                }
+            });
+
+            $(".chosen-select").each(function() {
+                if ($(this).val() === "") {
+                    isValid = false;
+                }
+            });
+            return isValid;
+        }
+		
+		if (validateForm()) {
+			var userData = {
+				name: $("#name").val(),
+				photo: $("#photo").val(),
+				scores: [
+					$("#q1").val(),
+					$("#q2").val(),
+					$("#q3").val(),
+					$("#q4").val(),
+					$("#q5").val(),
+					$("#q6").val(),
+					$("#q7").val(),
+					$("#q8").val(),
+					$("#q9").val(),
+					$("#q10").val()
+				]
+			};
+			var currentURL = window.location.origin;
+			// Ajax call for receiving response after POST req
+			$.post(currentURL + "/api/friends", userData, function(data) {
+
+                $("#matchName").text(data.name);
+                $("#matchImg").attr("src", data.photo);
+		
+			$("#resultsModal").modal("toggle");
+			
+		
+            });
+        }
+        else {
+            alert("Survey incomplete");
+        }
+
+        return false;
+    });
+
+</script>
+
+</body>
+</html>
